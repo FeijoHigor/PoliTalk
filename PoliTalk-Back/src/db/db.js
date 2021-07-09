@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/politalk', {
     useCreateIndex: true,
-    useFindAndModify: true,
+    useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
